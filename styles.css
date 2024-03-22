@@ -1,0 +1,328 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Headland+One&family=Mohave:ital,wght@0,300..700;1,300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap');
+
+/* Nulstil CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+
+  background-color: #ffffff;
+}
+
+.nav {
+  width: 100%;
+  height: 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1E3F5A;
+  border-bottom: 1px solid;
+  box-shadow: 0 5px 10px -6px #000000;
+  position: fixed;
+  z-index: 1;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  padding: 100px;
+  margin-right: 20px; /* Justeret margin mellem navigationslinks */
+}
+
+.nav a:hover {
+  color: #FFA500;
+  transition: all 0.4s ease 0s;
+}
+
+/* Hero Section Styles */
+.hero {
+  background-position: center;
+  background-color: #1E3F5A;
+  color: #ffffff;
+  padding: 100px 0;
+  background-size: cover;
+  text-align: center;
+  height: 300px;
+  background-repeat: repeat-y;
+}
+
+.hero-heading {
+  font-size: 48px;
+  font-weight: bold;
+  font-family: "Mohave", sans-serif;
+}
+
+.hero-subheading {
+  font-size: 24px;
+  font-family: "Almarai", sans-serif;
+
+}
+
+/* Button Styles */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #ffffff;
+  text-decoration: none;
+  border: 2px solid;
+}
+
+.btnform {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #ffffff;
+  background-color: #1E3F5A;
+  text-decoration: none;
+  border: 2px solid black;
+  margin-left: 182px;
+  margin-top: 25px;
+  
+
+}
+.btnform:hover {
+  background-color:#FFA500; 
+}
+
+.btn-primary {
+  color: white;
+}
+
+.btn:hover {
+  background-color:#FFA500
+}
+
+/* Main Content Section Styles */
+.main-content {
+  padding: 10px 0;
+  background-color: #ffffff;
+}
+
+/* Footer Section Styles */
+.footer {
+  background-color: #1E3F5A;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* Styles til logoet */
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-container img {
+  width: 150px;
+  margin-right: 90px;
+}
+
+.site-name {
+  margin-right: auto;
+}
+
+/* Styles til kasser under Hero-sektionen */
+.boxes {
+  background-color: #ffffff;
+  padding: 50px 0;
+}
+
+.boxes .container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.box {
+  width: 30%;
+  background-color: #1E3F5A;
+  padding: 80px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  position: relative;
+  box-shadow: 5px 5px 5px 5px #3b3b3b
+}
+
+.box h3 {
+  font-size: 25px;
+  color: #fff;
+  font-family: "Mohave", sans-serif;
+  border-bottom: 2px solid; 
+  border-color: #FFA500
+ 
+}
+
+.box p {
+  font-size: 18px;
+  color: #fff;
+  font-family: "Almarai", sans-serif;
+
+
+}
+
+
+/* Placer knappen i midten */
+.box .btn {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-color: #000000;
+  color: #ffffff;
+  border: 2px solid;
+}
+
+.box .btn:hover {
+  background-color: #FFA500
+  
+  }
+
+  .box h3.article-heading {
+  margin-bottom: 50px; /* Justeret margin kun for overskrifterne */
+
+}
+
+.social-media img {
+  margin-right: 25px;
+  margin-top: 20px;
+}
+
+#titelspan{
+  color: #FFA500;
+  font-style: italic;
+}
+
+
+
+
+
+/*Artikel side 2 css*/
+
+main {
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+  padding-bottom: 400px;
+
+
+}
+
+.img_tekst {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 200px;
+  margin-top: 350px;
+
+  gap: 13%;
+
+}
+
+.img_tekst2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 200px;
+  margin-top: 350px;
+
+  gap: 5%;
+
+}
+
+.img_tekst3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 200px;
+  margin-top: 350px;
+
+  gap: 10%;
+
+}
+
+.billede {
+  width: 10%;
+  height: 100%;
+  margin-bottom: 450px;
+}
+
+.tekst {
+  width: 30%;
+  margin-bottom: 350px;
+  background-color: #1E3F5A;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  position: relative;
+  box-shadow: 5px 5px 5px 5px #3b3b3b
+}
+
+.tekst p {
+  color: #ffffff;
+  font-family: "Almarai", sans-serif;
+  letter-spacing: 0.5px;
+  line-height: 25px;
+}
+
+.tekst h1 {
+  color: #ffffff;
+  font-family: "Mohave", sans-serif;
+  border-bottom: 2px solid #FFA500;
+
+
+
+
+
+/*Nyhedsbrev side*/
+
+}
+.forms{
+  background-color:white;
+  width: 100%;
+}
+
+
+
+.contact-box{
+  width: 500px;
+  background-color: rgb(255, 255, 255);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  position: relative;
+  margin-top: 200px;
+  left: 990px;
+  top: 50px;
+}
+
+.form{
+  margin: 35px;
+}
+
+.input-field{
+  width: 400px;
+  height: 50px;
+  margin-top: 20px;
+  margin-left: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 2px solid #1E3F5A;
+  border-radius: 14px;
+  outline: none;
+
+
+}
+
+#checkbox{
+  margin-left: 25px;
+}
